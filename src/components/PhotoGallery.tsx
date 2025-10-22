@@ -18,10 +18,10 @@ export const PhotoGallery = () => {
       <section className="py-20 px-4 md:px-8 bg-gradient-to-b from-background via-secondary/5 to-background">
         <div className="max-w-7xl mx-auto">
           <h2 className="text-5xl md:text-6xl font-script text-center mb-4 text-primary">
-            Beautiful Memories
+            Celebrating You ✨
           </h2>
           <p className="text-center text-muted-foreground mb-12 font-body">
-            Captured moments of joy and laughter ✨
+            A beautiful soul deserves to be celebrated 💕
           </p>
           
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">

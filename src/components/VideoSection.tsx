@@ -18,9 +18,8 @@ export const VideoSection = () => {
               <video
                 controls
                 className="w-full h-full"
-                poster="https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=1200&q=80"
               >
-                <source src="/placeholder-video.mp4" type="video/mp4" />
+                <source src="/video.mp4" type="video/mp4" />
                 Your browser does not support the video tag.
               </video>
             </div>

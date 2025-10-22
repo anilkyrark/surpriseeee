@@ -128,6 +128,7 @@ export default {
         "scale-in": "scale-in 0.5s ease-out",
         "heart-float": "heart-float 6s ease-in infinite",
         "confetti-fall": "confetti-fall 3s linear infinite",
+        "firework": "firework 1.5s ease-out forwards",
       },
     },
   },

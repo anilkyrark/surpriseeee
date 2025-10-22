@@ -2,12 +2,12 @@ import { useState } from "react";
 import { X } from "lucide-react";
 
 const photos = [
-  { id: 1, src: "https://images.unsplash.com/photo-1530268729831-4b0b9e170218?w=800&q=80", alt: "Beautiful moment 1" },
-  { id: 2, src: "https://images.unsplash.com/photo-1513151233558-d860c5398176?w=800&q=80", alt: "Beautiful moment 2" },
-  { id: 3, src: "https://images.unsplash.com/photo-1532635241-17e820acc59f?w=800&q=80", alt: "Beautiful moment 3" },
-  { id: 4, src: "https://images.unsplash.com/photo-1519315901367-f34ff9154487?w=800&q=80", alt: "Beautiful moment 4" },
-  { id: 5, src: "https://images.unsplash.com/photo-1481391032119-d89fee407e44?w=800&q=80", alt: "Beautiful moment 5" },
-  { id: 6, src: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=800&q=80", alt: "Beautiful moment 6" },
+  { id: 1, src: "/1.png", alt: "Beautiful moment 1" },
+  { id: 2, src: "/2.png", alt: "Beautiful moment 2" },
+  { id: 3, src: "/3.png", alt: "Beautiful moment 3" },
+  { id: 4, src: "/4.png", alt: "Beautiful moment 4" },
+  { id: 5, src: "/5.png", alt: "Beautiful moment 5" },
+  { id: 6, src: "/6.png", alt: "Beautiful moment 6" },
 ];
 
 export const PhotoGallery = () => {

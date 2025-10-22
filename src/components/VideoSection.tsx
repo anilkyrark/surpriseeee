@@ -3,7 +3,7 @@ export const VideoSection = () => {
     <section className="py-20 px-4 md:px-8 bg-gradient-to-b from-background to-secondary/10">
       <div className="max-w-4xl mx-auto">
         <h2 className="text-5xl md:text-6xl font-script text-center mb-4 text-primary animate-fade-in">
-          A Special Message
+          A Special Surprise
         </h2>
         <p className="text-center text-muted-foreground mb-12 font-body animate-fade-in">
           Made with love, just for you 💝

@@ -32,10 +32,6 @@ export const Footer = () => {
           <Heart className="text-accent fill-accent animate-float-slow" size={24} />
         </div>
         
-        <p className="text-muted-foreground font-body">
-          For someone who makes every day brighter ✨
-        </p>
-        
         <button
           onClick={handleShare}
           className="inline-flex items-center gap-2 px-6 py-3 bg-secondary hover:bg-secondary/90 text-secondary-foreground rounded-full font-body shadow-soft hover:shadow-elegant transition-all duration-300 hover:scale-105"

@@ -1,6 +1,5 @@
 import { BirthdayCake } from "./BirthdayCake";
 import { ConfettiButton } from "./ConfettiButton";
-import { CountdownTimer } from "./CountdownTimer";
 
 export const InteractiveSection = () => {
   return (
@@ -19,13 +18,6 @@ export const InteractiveSection = () => {
           </div>
           
           <div className="space-y-8 animate-fade-in-up">
-            <div className="text-center">
-              <h3 className="text-3xl font-dancing text-secondary mb-4">
-                Celebrating You For
-              </h3>
-              <CountdownTimer />
-            </div>
-            
             <div className="text-center">
               <p className="text-lg font-body text-muted-foreground mb-4">
                 Ready for more celebrations?

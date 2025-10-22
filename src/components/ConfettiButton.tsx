@@ -27,20 +27,28 @@ export const ConfettiButton = () => {
 
       {isAnimating && (
         <div className="absolute inset-0 pointer-events-none">
-          {[...Array(50)].map((_, i) => (
-            <div
-              key={i}
-              className="absolute w-3 h-3 animate-confetti-fall"
-              style={{
-                left: `${50}%`,
-                top: "50%",
-                background: `hsl(${Math.random() * 360}, 80%, 60%)`,
-                animationDelay: `${Math.random() * 0.5}s`,
-                animationDuration: `${2 + Math.random()}s`,
-                transform: `rotate(${Math.random() * 360}deg)`,
-              }}
-            />
-          ))}
+          {[...Array(50)].map((_, i) => {
+            const angle = (Math.PI * 2 * i) / 50;
+            const velocity = 150 + Math.random() * 100;
+            const tx = Math.cos(angle) * velocity;
+            const ty = Math.sin(angle) * velocity;
+            
+            return (
+              <div
+                key={i}
+                className="absolute w-2 h-2 rounded-full animate-firework"
+                style={{
+                  left: `50%`,
+                  top: "50%",
+                  background: `hsl(${Math.random() * 360}, 90%, 60%)`,
+                  animationDelay: `${Math.random() * 0.2}s`,
+                  animationDuration: `${1 + Math.random() * 0.5}s`,
+                  '--tx': `${tx}px`,
+                  '--ty': `${ty}px`,
+                } as React.CSSProperties}
+              />
+            );
+          })}
         </div>
       )}
     </div>
